@@ -23,7 +23,10 @@ github.com/heroku/x/hmetrics/onload
 github.com/gin-gonic/gin/binding
 github.com/gin-gonic/gin
 github.com/heroku/go-getting-started
-$ heroku local
+# For linux
+$ heroku local web
+# For windows`
+$ PORT=5000 ./bin/go-getting-started.exe
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
